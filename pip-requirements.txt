@@ -1,0 +1,5 @@
+waapi-client==0.7.2
+dearpygui==1.11.1
+customtkinter==5.2.2
+soundfile==0.12.1
+pyloudnorm==0.1.1

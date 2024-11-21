@@ -1,0 +1,32 @@
+{
+  "commands": [
+    {
+      "id": "tr.create-events-on-workunit",
+      "displayName": "Create Event(s) on WU",
+      "defaultShortcut": "Ctrl+Shift+E",
+      "program": "pythonw.exe",
+      "startMode": "MultipleSelectionSingleProcessSpaceSeparated",
+      "args": "${CurrentCommandDirectory}\\..\\create-events-on-workunit ${id}",
+      "cwd": "",
+      "contextMenu": {
+        "basePath": "waapi-tools",
+        "visibleFor": "Sound,SwitchContainer,RandomSequenceContainer,BlendContainer,MusicSwitchContainer"
+      },
+      "redirectOutputs": true
+    },
+    {
+      "id": "tr.re-normalizer",
+      "displayName": "Re-Normalize your sounds",
+      "program": "pythonw.exe",
+      "defaultShortcut": "Ctrl+Shift+Alt+N",
+      "startMode": "MultipleSelectionSingleProcessSpaceSeparated",
+      "args": "${CurrentCommandDirectory}\\..\\ReNormalizer ${id}",
+      "cwd": "",
+      "contextMenu": {
+        "basePath": "waapi-tools",
+        "visibleFor": "Sound"
+      },
+      "redirectOutputs": true
+    }
+  ]
+}
