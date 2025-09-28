@@ -27,6 +27,19 @@
         "visibleFor": "Sound"
       },
       "redirectOutputs": true
+    },
+    {
+      "id": "tr.rea-processor",
+      "displayName": "Batch Reaper FX Chain Utility for Wwise",
+      "program": "pythonw.exe",
+      "startMode": "MultipleSelectionSingleProcessSpaceSeparated",
+      "args": "${CurrentCommandDirectory}\\..\\ReaProcessor ${id}",
+      "cwd": "",
+      "contextMenu": {
+        "basePath": "waapi-tools",
+        "visibleFor": "Sound"
+      },
+      "redirectOutputs": true
     }
   ]
 }
